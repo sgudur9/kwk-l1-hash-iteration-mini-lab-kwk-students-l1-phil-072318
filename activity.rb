@@ -1,4 +1,4 @@
-puts "Hello! What would you like to calculate? (only accepts decimals)"
-calculate = gets.chomp.to_f
+puts "Hello! What is your first value? (only accepts decimals)"
+value = gets.chomp.to_f
 
   if calculate 
