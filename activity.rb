@@ -18,7 +18,7 @@ elsif symbol == "/"
   puts "Your answer is #{value1 / value2}."
 elsif symbol == "%"
   puts "Your answer is #{value1 % value2}."
-
+end
 
 puts "Is that all I can help you with today? (I only accept yes or no)"
 answer = gets.chomp.downcase
@@ -36,6 +36,6 @@ break
 end
 end
 end
-end
+
 
 calculator
