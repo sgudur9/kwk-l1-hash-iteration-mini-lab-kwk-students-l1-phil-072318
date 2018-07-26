@@ -8,4 +8,9 @@ puts "Enter the keyboard symbol of your calculation."
 symbol = gets.chomp
 
 if symbol == "+"
-  puts "Your answer is "
+  puts "Your answer is #{value1} + #{value2}."
+elsif symbol == "-"
+  puts "Your answer is #{value1} + #{value2}."
+elsif symbol == "*"
+  puts "Your answer is #{value1} + #{value2}."
+  
