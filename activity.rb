@@ -31,5 +31,5 @@ end
 
 while answer == "no"
 puts calculator
+break
 
-end
