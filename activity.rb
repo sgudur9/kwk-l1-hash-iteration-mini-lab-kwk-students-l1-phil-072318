@@ -33,8 +33,9 @@ while answer == "no"
 puts calculator
 break
 
+end
+end
+end
+end
+
 calculator
-end
-end
-end
-end
