@@ -1,3 +1,4 @@
+def calculator
 puts "Hello! What is your first value? (only accepts decimals)"
 value1 = gets.chomp.to_f
 
@@ -25,5 +26,10 @@ answer = gets.chomp.downcase
 if answer == "yes"
   puts "Bye!"
 elsif answer == "no"
-  puts ""
+  puts "Let's continue!"
+end
 
+while answer == "no"
+puts calculator
+
+end
