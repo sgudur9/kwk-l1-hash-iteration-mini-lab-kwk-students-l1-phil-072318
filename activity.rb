@@ -24,6 +24,6 @@ answer = gets.chomp.downcase
 
 if answer == "yes"
   puts "Bye!"
-if answer == "no"
+elsif answer == "no"
   puts ""
 
