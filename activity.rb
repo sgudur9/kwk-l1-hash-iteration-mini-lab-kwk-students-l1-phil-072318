@@ -18,3 +18,4 @@ elsif symbol == "/"
 elsif symbol == "%"
   puts "Your answer is #{value1 % value2}."
 end
+
