@@ -1,8 +1,8 @@
 def calculator
-puts "Hello! What is your first value? (only accepts decimals)"
+puts "Hello! What is your first value?"
 value1 = gets.chomp.to_f
 
-puts "Great! What is your second value? (please use decimals)"
+puts "Great! What is your second value?"
 value2 = gets.chomp.to_f
 
 puts "Enter the keyboard symbol of your calculation."
