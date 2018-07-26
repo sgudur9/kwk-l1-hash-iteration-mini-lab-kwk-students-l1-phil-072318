@@ -8,6 +8,7 @@ value2 = gets.chomp.to_f
 puts "Enter the keyboard symbol of your calculation."
 symbol = gets.chomp
   if symbol != "+" || symbol != "-" || symbol != "*" || symbol != "/" || symbol != "%"
+  puts "Enter a valid symbol."
 
 if symbol == "+"
   puts "Your answer is #{value1 + value2}."
