@@ -33,6 +33,7 @@ while answer == "no"
 puts calculator
 break
 
+calculator
 end
 end
 end
